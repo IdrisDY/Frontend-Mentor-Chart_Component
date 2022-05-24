@@ -31,6 +31,8 @@ p{
 color: hsl(33, 100%, 98%);
 margin: 0;
 padding: .1em .5em;
+font-family: 'DM Sans',sans-serif;
+
 }
 h2{
    font-size: 1.5rem;
@@ -41,10 +43,15 @@ h2{
 }
 .h2-white{
    color: white;
+   font-family: 'DM Sans',sans-serif;
+
 
 } 
 .h2-npad{
-   padding: .5em 0;
+   padding: .2em 0;
+   font-family: 'DM Sans',sans-serif;
+font-weight: 700;
+font-size: 1.5rem;
 }
 .lowerbox{
    display: flex;
@@ -70,10 +77,16 @@ h2{
    color: black;
 }
 .p-text{
-   font-size: 1.5rem;
+   font-size: 1.2rem;
+   font-family: 'DM Sans',sans-serif;
+font-weight: 700;
 }
-hr{
-   color: black;
+.p-tot{
+   font-family: 'DM Sans',sans-serif;
+color: black;
+min-width: 100%;
+font-size: 1rem;
+padding: 0;
 }
 .bars{
    display: flex;
@@ -88,20 +101,29 @@ hr{
 width: 12%;
 display: flex;
 flex-direction: column-reverse;
-align-items: ;
 
-span{
+span {
    order: 1;
    color: white;
    background: black;
-   padding: 0 .2em;
+   padding: .3em .3em;
+   margin-bottom: .5em;
    font-size: 1rem;
    border-radius: .2em;
+   display: none;
+   width: fit-content;
+   font-size: .8rem;
+   border: 0;
+}
+.remove{
+   display: flex;
 }
 }
 h5{
    margin: .5em auto;
    padding-bottom: .8em;
+   font-family: 'DM Sans',sans-serif;
+   font-weight: 400;
 }
 
 .sub-col{
@@ -117,6 +139,7 @@ h5{
 .sub-col:hover{
    background-color:  hsl(186, 34%, 60%);
    transition: ease-in-out .5s;
+   cursor: pointer;
 }
 .bottom-text{
    display: flex;
@@ -127,13 +150,28 @@ padding-top: .5em;
 .p-black{
    display: flex;
    padding: 0;
+   font-family: 'DM Sans',sans-serif;
    
    }
 
 h4{
    margin-bottom:0 ;
    text-align: right;
+   font-family: 'DM Sans', sans-serif;
 }
 .spend-text{
    height: 15%;
+}
+.scolo{
+   background:rgb(205, 124, 124);
+   border: 0;
+}
+@media(min-width:768px){
+   .p-text{
+      font-size: 2rem;
+   }
+   .h2-npad{
+      font-size: 2rem;
+   }
+   
 }
