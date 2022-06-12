@@ -1,5 +1,4 @@
 
-@import url('data.json');
 
 
 /* define primary colors*/
@@ -66,11 +65,8 @@ font-size: 1.5rem;
 }
 @media(max-width:768px){
    .lowerbox{
-      height: 60vh;
+      height: 57vh;
 
-   }
-   .bars{
-      height: 70%;
    }
 }
 .p-black{
@@ -94,11 +90,11 @@ padding: 0;
    justify-content: space-between;
    position: relative;
    flex-direction: row;
-   min-height: 50%;
+   height: 65%;
    border-bottom: 1px grey solid;
 }
 .col{
-width: 12%;
+width: 11%;
 display: flex;
 flex-direction: column-reverse;
 
@@ -121,15 +117,14 @@ span {
 }
 h5{
    margin: .5em auto;
-   padding-bottom: .8em;
    font-family: 'DM Sans',sans-serif;
-   font-weight: 400;
+   font-weight: 100;
 }
 
 .sub-col{
    border: 2px solid;
    width: 100%;
-   border-radius: .3em;
+   border-radius: .2em;
    order: 1;
 }
 .scolor{
@@ -160,7 +155,7 @@ h4{
    font-family: 'DM Sans', sans-serif;
 }
 .spend-text{
-   height: 15%;
+   height: 10%;
 }
 .scolo{
    background:rgb(205, 124, 124);
@@ -173,5 +168,7 @@ h4{
    .h2-npad{
       font-size: 2rem;
    }
-   
+   h5{
+      padding: .5em 0;
+   }
 }
